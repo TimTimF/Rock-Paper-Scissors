@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <title>Document</title>
+</head>
+<body>
+    <section class="wrapper">
+        <div class="main-container">
+            <div class="playerSides p1" id="userSide">
+                <div class="playerIndicator">
+                    <h2 id="playerName">Player</h2>
+                </div>
+                <div class="P-handImageContainer hide" id="playerCompHandImage">
+                </div>
+            </div>
+            <div class="gameContainer">
+                <div class="roundCount">
+                    <h2 id="Round"></h2>
+                </div>
+                <div class="game">
+                    <div class="playerChoices" id="inGameContainer">
+                        <button class="Prock" id="choice1"></button>
+                        <button class="Ppaper" id="choice2"></button>
+                        <button class="Pscissors" id="choice3"></button>
+                    </div>
+                </div>
+                <div class="scoreCount">
+                    <div class="pWins">
+                        <h2 id="winContainer"></h2>
+                    </div>
+                    <div class="cWins">
+                        <h2 id="lossContainer"></h2>
+                    </div>
+                </div>
+            </div>
+            <div class="playerSides" id="compSide">
+                <div class="playerIndicator">
+                    <h2>Computer</h2>
+                </div>
+                <div class="C-handImageContainer hide" id="playerCompHandImage">
+                </div>
+            </div>
+        </div>
+    </section>
+    <script src="RPS.js"></script>
+</body>
+</html>
